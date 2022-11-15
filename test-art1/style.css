@@ -1,0 +1,54 @@
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/K2D/K2D.css');
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/Kanit/Kanit.css');
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+  font-family: 'K2D', sans-serif;
+}
+
+p, ol {
+  font-family: 'K2D', sans-serif;
+  font-size: 40px;
+  color: blue;
+}
+
+h1, h2, h3, div {
+  font-family: 'Kanit', sans-serif;
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
+.inverse {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+  .left-column h2:last-of-type, .left-column h3:last-child {
+    color: #000;
+  }
+.right-column {
+  width: 70%;
+  float: right;
+  padding-top: 1em;
+}
+img {
+  width: 200px;
+  class: center;
+}
+
+// colors
+s { color: green }
+em { color: blue }
