@@ -1,5 +1,9 @@
 # myslide
 
-This my slides. Here I try to use reveal.js for creating slides.
+This my slides.
 
-And remark.js also.
+Here I try to use [reveal.js](https://revealjs.com/) for creating slides.
+
+And [remark.js](https://remarkjs.com/) also.
+
+I'd love markdown :)
