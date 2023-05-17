@@ -10,6 +10,7 @@ function showCorrectAnswer() {
     correct_answer[i].style.color = "red"
   }
 }
+
 //hide correct answer
 function hideCorrectAnswer() {
   let correct_answer = document.getElementsByClassName('red');
@@ -17,6 +18,7 @@ function hideCorrectAnswer() {
     correct_answer[i].style.color = "black"
   }
 }
+
 //run function by press Enter
   document.addEventListener("keydown", (event) => {
 if (event.isComposing || event.keyCode === 13) {
