@@ -68,6 +68,7 @@ em { color: blue }
 }
 
 .remark-visible {
+  width: 100vw;
   transition: opacity 0.5s ease-out;
   opacity: 1;
 }
