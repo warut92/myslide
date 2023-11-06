@@ -1,14 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport"
-         content="width=device-width, 
+         content="width=device-width,
                         initial-scale=1.0" />
     <title>QR Code Generator</title>
-    
+
     <style>
         h1, h3 {
           color: green;
@@ -24,21 +24,21 @@
 "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
     </script>
 </head>
- 
+
 <body>
-    <header>
+    <!-- <header>
         <h1>GeeksforGeeks</h1>
         <h3>QR code generator using qrcode.js</h3>
         <h3>To visit geeksforgeeks.org scan below code</h3>
-    </header>
+    </header> -->
     <main>
         <div id="qrcode"></div>
     </main>
-     
+
     <script>
         var qrcode = new QRCode("qrcode",
         "https://www.geeksforgeeks.org");
     </script>
 </body>
- 
+
 </html>
