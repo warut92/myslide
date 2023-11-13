@@ -1,0 +1,103 @@
+<!doctypeB html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>วิชา พื้นฐานขลุ่ยเพียงออ 2 (ศ22204)</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="stylesheet" href="dist/theme/simple.css">
+
+		<!-- thai fonts -->
+		<link rel="stylesheet" href="dist/thai-fonts/thai.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<style type="text/css">
+			/* Two-column layout */
+			.column {
+			  float: left;
+			  width: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+<textarea id="content" data-template>
+# ข้อตกลงในชั้นเรียน
+---
+## ข้อตกลงในชั้นเรียน
+
+![](https://2.bp.blogspot.com/_jqZ_3cC7k2c/TLrddJS6YdI/AAAAAAAACOs/ydO-Ze8PxXg/s1600/%E0%B8%96%E0%B8%AD%E0%B8%94%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2.jpg)
+
+1. ถอดรองเท้าไว้หน้าห้อง จัดระเบียบให้เรียบร้อย
+---
+## ข้อตกลงในชั้นเรียน
+
+![300](https://webstockreview.net/images/attention-clipart-class-clipart-3.jpg)
+
+2. ตั้งใจเรียน ไม่พูดคุยขณะเรียน หรือใช้ถ้อยคำหยาบคาย รบกวนการเรียนการสอน
+---
+## ข้อตกลงในชั้นเรียน
+
+![200](https://static.vecteezy.com/system/resources/previews/000/433/361/original/a-boy-playing-mobile-phone-vector.jpg)
+
+3. ใช้โทรศัพท์ให้ถูกเวลา (หากต้องการถ่ายรูปถ่ายวิดีโอในห้องเรียนให้ขออนุญาตครูผู้สอนก่อนเสมอ)
+---
+## ข้อตกลงในชั้นเรียน
+
+![400](https://images.fineartamerica.com/images-medium-large-5/students-playing-traditional-thai-instruments-in-music-class-at-baan-konn-soong-school-in-sukhothai-ruth-hager.jpg)
+
+4. ไม่เล่นเครื่องดนตรีไทยโดยไม่ได้รับอนุญาต
+---
+## ข้อตกลงในชั้นเรียน
+
+![400](https://static.vecteezy.com/system/resources/previews/003/048/131/original/scene-with-students-cleaning-classroom-together-free-vector.jpg)
+
+5. ช่วยกันรักษาความสะอาดในห้องเรียน
+</textarea>
+			</section>
+	<!-- <section>
+  <h1>จับเวลา 5 นาที</h1>
+  <countdown time="300" autostart="yes" />
+	</section> -->
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/countdown/countdown.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+			Reveal.initialize({ slideNumber: false });
+
+
+		    Reveal.initialize({
+		        dependencies: [
+		          { src: "plugin/countdown/countdown.js" },
+
+		        ],
+		        countdown: { defaultTime: 600, autostart: "no" }
+		      });
+
+										let content = document.getElementById('content').innerHTML
+										console.log(content);
+		</script>
+	</body>
+</html>
