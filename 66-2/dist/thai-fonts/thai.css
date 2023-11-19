@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&display=swap);
+@import 'https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/TlwgTypist/TlwgTypist.css';
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -47,3 +49,10 @@ img[alt="1000"] { width: 1000; }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 } */
+
+table, th, td {
+	font-size: 96%;
+	font-family: 'Tlwg Typist', monospace;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
