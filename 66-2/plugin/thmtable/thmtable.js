@@ -1,7 +1,10 @@
 //get text from textarea
 let inputText = document.getElementById("thm").innerHTML;
+
 //splite new line by regex
-let newLineArr = inputText.split(/\n/g);
+  let newLineArr = inputText.split(/\n/g)
+  console.log('NEWLINEARR', newLineArr)
+
 //find length
 let newLineArrLen = newLineArr.length;
 //make variable
@@ -26,21 +29,9 @@ HTMLTableOutput = HTMLTableOutput.replace(/9/g, 'รํ');
 HTMLTableOutput = HTMLTableOutput.replace(/\+/g, 'มํ');
 HTMLTableOutput = HTMLTableOutput.replace(/\*/g, 'ํ');
 HTMLTableOutput = HTMLTableOutput.replace(/\./g, 'ฺ');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๑<\/td><\/tr>/g, '๑<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๒<\/td><\/tr>/g, '๒<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๓<\/td><\/tr>/g, '๓<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๔<\/td><\/tr>/g, '๔<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๕<\/td><\/tr>/g, '๕<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๖<\/td><\/tr>/g, '๖<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๗(\([^)]*\))<\/td><\/tr>/g, '๗$1<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๘<\/td><\/tr>/g, '๘<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๙<\/td><\/tr>/g, '๙<table>');
-// HTMLTableOutput = HTMLTableOutput.replace(/<tr><td>๑๐<\/td><\/tr>/g, '๑๐<table>');
 HTMLTableOutput = HTMLTableOutput.replace(/<tr><td><\/td><\/tr>/g, '<\/table><br><table>');
 
 if (HTMLTableOutput !== "<tr><td></td></tr>\n") {
-  document.getElementById("thm").innerHTML =
+  document.getElementById('thm').innerHTML =
     "<table style=&#34width:100%&#34>\n" + HTMLTableOutput + "</table>";
-} else {
-  alert("empty data!");
-}
+  }
